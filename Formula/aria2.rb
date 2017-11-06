@@ -2,6 +2,7 @@ class Aria2 < Formula
   desc "Download with resuming and segmented downloading, dig para version, removed some restrictions"
   homepage "https://github.com/digpara/aria2"
   url "https://github.com/digpara/aria2/archive/dp.0.1.tar.gz"
+  sha256 8d9ff87b8e4ff4379cb7675e4b581a56b7bb801b48efc0431b31cc2060ba3ef6
   head "https://github.com/digpara/aria2.git"
 
   depends_on "pkg-config" => :build
