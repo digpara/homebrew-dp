@@ -10,8 +10,6 @@ class Aria2 < Formula
   depends_on "autoconf" => :build
   depends_on "libssh2"
 
-  needs :cxx11
-
   def install
     ENV.cxx11
 
