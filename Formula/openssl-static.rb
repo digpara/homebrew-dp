@@ -1,4 +1,4 @@
-class Openssl < Formula
+class OpensslStatic < Formula
   desc "SSL/TLS cryptography library"
   homepage "https://openssl.org/"
   url "https://www.openssl.org/source/openssl-1.0.2q.tar.gz"
